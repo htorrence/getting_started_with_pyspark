@@ -1,0 +1,11 @@
+version: '3'
+services:
+  pyspark:
+    build: .
+    image: pyspark
+    ports:
+      - "8888:8888"
+      - "4040-4050:4040-4050"
+    volumes:
+      - ./:/intro_to_pyspark
+    entrypoint: ['/usr/bin/tini', '--', 'jupyter', 'notebook', '--port=8888', '--allow-root']
