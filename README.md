@@ -1,2 +1,2 @@
 # getting_started_with_pyspark
-Materials for safari pyspark intro class
+Materials for Getting Started With PySpark class, developed for Pearson and taught on Safari Books Online platform.
