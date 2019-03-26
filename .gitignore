@@ -104,4 +104,4 @@ venv.bak/
 .mypy_cache/
 
 # data file
-taxi.csv
+taxi_2016.csv

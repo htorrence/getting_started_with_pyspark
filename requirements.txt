@@ -2,5 +2,6 @@ tornado==4.5.3
 jupyter
 matplotlib
 pandas
+pyarrow
 pyspark
 seaborn
