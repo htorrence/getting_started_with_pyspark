@@ -10,7 +10,7 @@ The notebooks in this repo are designed to be run in a docker container - this a
 
 Once docker is set up and you have cloned the github repo, navigate into newly created folder (it should be called `getting_started_with_pyspark`). In the top level of this directory run the command `docker-compose build`. This command will build the provided container, and this step will take a few minutes. Once the build is finished you can start the container with `docker-compose up`, and at any time you can stop the container by typing CTRL-C.
 
-Once the container is running, open a browser window and go to `http://localhost:8888`
+Once the container is running, open a browser window and go to `http://localhost:8888` or `http://127.0.0.1:8888`.
 
 You should get a password prompt - by default the password is `pyspark`, and that can be changed in the `jupyter_notebook_config.py` file. After entering the password you should see a jupyter notebook directory!
 
