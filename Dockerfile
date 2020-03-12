@@ -29,7 +29,7 @@ WORKDIR intro_to_pyspark
 COPY . .
 
 RUN pip3 install wheel
-RUN pip3 install -r requirements-frozen.txt
+RUN pip3 install -r requirements.txt
 
 # Add Tini. Tini operates as a process subreaper for jupyter. This prevents kernel crashes.
 ENV TINI_VERSION v0.6.0
