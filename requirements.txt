@@ -7,10 +7,12 @@
 attrs==19.3.0             # via jsonschema
 backcall==0.1.0           # via ipython
 bleach==3.1.1             # via nbconvert
+convertdate==2.2.0        # via holidays
 cycler==0.10.0            # via matplotlib
 decorator==4.4.2          # via ipython, traitlets
 defusedxml==0.6.0         # via nbconvert
 entrypoints==0.3          # via nbconvert
+holidays==0.10.1          # via -r requirements.in
 importlib-metadata==1.5.0  # via jsonschema
 ipykernel==5.1.4          # via ipywidgets, jupyter, jupyter-console, notebook, qtconsole
 ipython-genutils==0.2.0   # via nbformat, notebook, qtconsole, traitlets
@@ -43,12 +45,13 @@ ptyprocess==0.6.0         # via pexpect, terminado
 py4j==0.10.7              # via pyspark
 pyarrow==0.14             # via -r requirements.in
 pygments==2.6.1           # via ipython, jupyter-console, nbconvert, qtconsole
+pymeeus==0.3.7            # via convertdate
 pypandoc==1.4             # via -r requirements.in
 pyparsing==2.4.6          # via matplotlib
 pyrsistent==0.15.7        # via jsonschema
 pyspark==2.4.5            # via -r requirements.in
-python-dateutil==2.8.1    # via jupyter-client, matplotlib, pandas
-pytz==2019.3              # via pandas
+python-dateutil==2.8.1    # via holidays, jupyter-client, matplotlib, pandas
+pytz==2019.3              # via convertdate, pandas
 pyzmq==19.0.0             # via jupyter-client, notebook
 qtconsole==4.7.1          # via jupyter
 qtpy==1.9.0               # via qtconsole
@@ -56,7 +59,7 @@ scikit-learn==0.22.2.post1  # via sklearn
 scipy==1.4.1              # via scikit-learn, seaborn
 seaborn==0.10.0           # via -r requirements.in
 send2trash==1.5.0         # via notebook
-six==1.14.0               # via bleach, cycler, jsonschema, pyarrow, pyrsistent, python-dateutil, traitlets
+six==1.14.0               # via bleach, cycler, holidays, jsonschema, pyarrow, pyrsistent, python-dateutil, traitlets
 sklearn==0.0              # via -r requirements.in
 terminado==0.8.3          # via notebook
 testpath==0.4.4           # via nbconvert
