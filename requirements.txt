@@ -6,14 +6,13 @@
 #
 attrs==19.3.0             # via jsonschema
 backcall==0.1.0           # via ipython
-bleach==3.1.1             # via nbconvert
+bleach==3.1.4             # via nbconvert
 convertdate==2.2.0        # via holidays
 cycler==0.10.0            # via matplotlib
 decorator==4.4.2          # via ipython, traitlets
 defusedxml==0.6.0         # via nbconvert
 entrypoints==0.3          # via nbconvert
 holidays==0.10.1          # via -r requirements.in
-importlib-metadata==1.5.0  # via jsonschema
 ipykernel==5.1.4          # via ipywidgets, jupyter, jupyter-console, notebook, qtconsole
 ipython-genutils==0.2.0   # via nbformat, notebook, qtconsole, traitlets
 ipython==7.13.0           # via ipykernel, ipywidgets, jupyter-console
@@ -59,7 +58,7 @@ scikit-learn==0.22.2.post1  # via sklearn
 scipy==1.4.1              # via scikit-learn, seaborn
 seaborn==0.10.0           # via -r requirements.in
 send2trash==1.5.0         # via notebook
-six==1.14.0               # via bleach, cycler, holidays, jsonschema, pyarrow, pyrsistent, python-dateutil, traitlets
+six==1.14.0               # via bleach, cycler, holidays, jsonschema, pyarrow, python-dateutil, traitlets
 sklearn==0.0              # via -r requirements.in
 terminado==0.8.3          # via notebook
 testpath==0.4.4           # via nbconvert
@@ -69,7 +68,6 @@ wcwidth==0.1.8            # via prompt-toolkit
 webencodings==0.5.1       # via bleach
 wheel==0.34.2             # via -r requirements.in, pypandoc
 widgetsnbextension==3.5.1  # via ipywidgets
-zipp==3.1.0               # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
